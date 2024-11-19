@@ -1,0 +1,37 @@
+seed: 42
+input_data_path: data/persuade_2.0_human_scores_demo_id_github.csv
+
+model:
+  backbone_path: gpt2
+  max_length: 1024
+  
+  tokenizer:
+    padding_side: left
+    truncation_side: left
+    use_fast: true
+    
+  lora:
+    target_modules:
+      - c_attn
+    r: 64
+    lora_alpha: 64
+    lora_dropout: 0.1
+    modules_to_save:
+      - lm_head
+
+train_params:
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  num_train_epochs: 1
+  gradient_accumulation_steps: 4
+  warmup_pct: 0.1
+  eval_frequency: 300
+
+optimizer:
+  name: AdamW
+  lr: 5.0e-5
+  weight_decay: 1.0e-2
+  max_grad_norm: 0.3
+
+outputs:
+  model_dir: output_data/models/gpt2
