@@ -17,4 +17,4 @@ The dataset used for fine-tuning the model consists of a combination of several 
 
 In addition, data samples were also generated using **LLaMA** and **GPT-2** models.
 
-The final merged datasets can be downloaded in [https://drive.google.com/file/d/1AXVgr9T5qwHOPSXv5xPya8KKTYvAeE-3/view?usp=sharing](https://file.io/Wz3JI0DVhXF1)
+The final merged datasets can be downloaded in https://file.io/Wz3JI0DVhXF1
