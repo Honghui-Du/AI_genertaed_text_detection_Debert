@@ -16,3 +16,5 @@ The dataset used for fine-tuning the model consists of a combination of several 
 3. [DAIGT V4 Train Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v4-train-dataset)
 
 In addition, data samples were also generated using **LLaMA** and **GPT-2** models.
+
+The final merged datasets can be downloaded in https://drive.google.com/file/d/1AXVgr9T5qwHOPSXv5xPya8KKTYvAeE-3/view?usp=sharing
