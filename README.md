@@ -14,7 +14,6 @@ The dataset used for fine-tuning the model consists of a combination of several 
 1. [Persaude Corpus 2](https://www.kaggle.com/datasets/nbroad/persaude-corpus-2?resource=download)
 2. [LLM Detect AI Generated Text Competition Dataset](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470121), where the data lodaers were also referred.
 3. [DAIGT V4 Train Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v4-train-dataset)
-
-In addition, data samples were also generated using **LLaMA** and **GPT-2** models.
+4. In addition, data samples were also generated using **LLaMA** and **GPT-2** models.
 
 The final merged datasets can be downloaded in https://file.io/Wz3JI0DVhXF1
