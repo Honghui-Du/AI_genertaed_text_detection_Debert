@@ -1,6 +1,6 @@
 # AI-Generated Text Detection with DeBERTa-Xlarge
 
-This repository contains code for fine-tuning a DeBERTa-Xlarge model to detect AI-generated text. The model is trained using all active layers and 5 cross-validation approach for performance evaluation.
+This repository contains code of a course project for fine-tuning a DeBERTa-Xlarge model to detect AI-generated text. The model is trained using all active layers and 5 cross-validation approach for performance evaluation.
 
 ## Model Overview
 
